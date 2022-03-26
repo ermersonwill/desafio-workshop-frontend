@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body{
+    margin: 0;
+    background-position: center;
+    background-size: 1500px;
+    background-image: url(imagem.jpg);
+}
+.header{ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(92, 80, 46, 0.979);
+    justify-content: space-around;
+    flex-direction: row;
+    height: 110px;
+    gap: 100px;
+}
+.logo{
+    width: 220px;
+    padding-right: 300px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.item-menu{
+    height: 10px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item-menu:hover {
+     color: gray;
+    }
+
+.main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* margin: 90px 0px 0px 90px; */
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #C4C4C4;
+    border-radius: 40px;
+    height: 660px;
+    width: 630px;
+    margin:90px 0px 70px 90px;
+    box-shadow: 5px 5px 5px black;
+}
+.titulo-cadastro{
+    font-family: 'Lato', sans-serif;
+    font-size: 47px;
+    height: 130px;
+    margin: 70px;
+
+}
+.campo-cadastro{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    width: 450px;
+    height:55px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.botao{
+    height: 90px;
+    width: 450px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(21, 240, 21);
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.botao:hover{
+    background-color: rgb(15, 204, 15);
+}
+
+.enunciado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height:650px;
+}
+.titulo-site{
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+.resumo-site{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    background-color: #686464ad;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.imagem-fundo{
+    width: 300px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(92, 80, 46, 0.979);
+    flex-direction: row;
+    height: 110px;
+}
+
+.imagem-rodape{
+    width: 60px;
+    align-items: center;
+    padding: 25px 15px;
+    cursor: pointer;
+}
+
+
+
